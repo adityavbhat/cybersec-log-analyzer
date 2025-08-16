@@ -37,3 +37,9 @@ yarn-error.log*
 # ---- Others ----
 *.bak
 *.tmp
+
+# ---- Next.js build ----
+frontend/.next/
+
+# ---- Backend sample logs ----
+backend/sample_logs/*.log
