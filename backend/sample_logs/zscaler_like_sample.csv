@@ -1,0 +1,13 @@
+@'
+timestamp,src_ip,dest_host,url_path,status,bytes_sent,user_agent
+2025-08-08T14:00:01Z,10.0.0.5,example.com,/home,200,1234,Mozilla/5.0
+2025-08-08T14:00:10Z,10.0.0.5,example.com,/login,302,850,Mozilla/5.0
+2025-08-08T14:00:12Z,10.0.0.5,example.com,/admin,200,950,Chrome/122
+2025-08-08T14:00:18Z,10.0.0.8,api.example.com,/api/keys,200,5000,curl/8.0
+2025-08-08T14:00:40Z,10.0.0.5,example.com,/home,503,100,Chrome/122
+2025-08-08T14:00:41Z,10.0.0.5,example.com,/home,503,100,Chrome/122
+2025-08-08T14:00:42Z,10.0.0.5,example.com,/home,503,100,Chrome/122
+2025-08-08T14:00:43Z,10.0.0.5,example.com,/home,503,100,Chrome/122
+2025-08-08T14:00:44Z,10.0.0.5,example.com,/home,503,100,Chrome/122
+2025-08-08T14:02:00Z,10.0.0.9,example.org,/reports/weekly,200,9800,Edge/120
+'@ | Set-Content -Encoding utf8NoBOM D:\cybersec_app\backend\sample_logs\zscaler_like_sample.csv
